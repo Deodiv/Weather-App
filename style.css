@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+   background-color: rgb(161, 160, 160);
+   /* background-image: url(./img/photo-1561471026-0bbb77535d25.avif); */
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 16px;
+}
+header div a{
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+header div:last-child i {
+    font-size: 1.4rem;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
