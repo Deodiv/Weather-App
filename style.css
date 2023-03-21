@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 body {
    background-color: rgb(161, 160, 160);
@@ -10,6 +10,10 @@ body {
    background-repeat: no-repeat;
    color: #fff;
    font-size: 16px;
+   height: 100vh;
+   max-width: 1200px;
+   position: relative;
+   padding: 1.5rem;
 }
 header div a{
     font-size: 1.2rem;
@@ -22,5 +26,15 @@ header div:last-child i {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    
+}
+.bottom_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 11rem;
+}
+.position {
+    padding-right: 2rem;
 }
