@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,9 +11,10 @@ body {
    color: #fff;
    font-size: 16px;
    height: 100vh;
-   max-width: 1200px;
+   /* max-width: 1200px; */
    position: relative;
    padding: 1.5rem;
+   font-family: 'Roboto', sans-serif;
 }
 header div a{
     font-size: 1.2rem;
@@ -22,6 +23,14 @@ header div a{
 }
 header div:last-child i {
     font-size: 1.4rem;
+}
+.btn {
+    padding: 0.5rem;
+    border-radius: 12%;
+    background-color: #556B2F;
+    color: #fff;
+    cursor: pointer;
+    
 }
 .container {
     display: flex;
@@ -37,4 +46,8 @@ header div:last-child i {
 }
 .position {
     padding-right: 2rem;
+}
+.degree {
+    font-size: 6rem;
+    font-weight: 900;
 }
