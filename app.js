@@ -8,7 +8,10 @@ fetch(`http://api.weatherapi.com/v1/current.json?key=13857fdb8d274be8b9422370023
 .then(data => {
   console.log(data);  
   document.querySelector('.location').innerText = data.location.name
-})
+  document.querySelector('.time').innerText = data.location.localtime
+  document.querySelector('.degree').innerText = data.current.temp_c
+  document.querySelector('.weather_icon').src = data.current.condition.icon
+}) 
 .catch(err => {
   console.log(`error ${err}`);
 });
